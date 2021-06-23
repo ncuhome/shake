@@ -15,7 +15,7 @@ import store from './vuex/store'
  
 // Vue.use(VueAwesomeSwiper, /* { default global options } */
 import FastClick from 'fastclick'
-import Miracle from 'incu-webview'
+
 FastClick.attach(document.body)
 axios.interceptors.request.use(
     config => {
