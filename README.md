@@ -1,30 +1,15 @@
-# shake
+# Shake - 饭前摇一摇
 
-> A Vue.js project
+## 关于本项目
 
-## Build Setup
+原先的代码本应维护在 gitee 上的某位学长的私有仓库，而这份代码是从部署的服务器（120.xxx）直接拉取过来的，所以将在 GitHub 的提交记录已全部 reset 了
 
-``` bash
-# install dependencies
-npm install
+目前通过 incu-webview（Miracle） SDK 来判断是否在 native 容器中，可以考虑先改造为 [mincu](https://github.com/ncuhome/mincu)
 
-# serve with hot reload at localhost:8080
-npm run dev
+其他同学可以考虑暑假时和 [食遇 2.0](https://ncuhome.yuque.com/docs/share/f9a59544-8120-479c-86aa-b682bc1a0d50) 一起迭代掉
 
-# build for production with minification
-npm run build
+目前部署方式从服务器托管更换为 OSS （如果迭代，后期可以考虑直接放到私有 serverless 平台部署 SSR）
 
-# build for production and view the bundle analyzer report
-npm run build --report
+## 预览图
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+<img src="https://user-images.githubusercontent.com/25416941/123171177-08162880-d4ae-11eb-899c-fc0e3d2b2d62.PNG" height="600px"/>
